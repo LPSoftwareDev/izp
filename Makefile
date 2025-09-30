@@ -1,7 +1,7 @@
 all: main
 
 CC = gcc
-CFLAGS = -Werror -Wall -Wextra -pedantic
+CFLAGS = -Werror -Wall -Wextra -pedantic -lm
 
 .PHONY: all run clean
 
